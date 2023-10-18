@@ -5,7 +5,7 @@ const PopularProductCard = ({ imgURL, name, price }) => {
     <div className="flex flex-1 flex-col w-full max-sm:w-full  text-slate-100">
       <img src={imgURL} alt={name} className="w-[282px] h-[282px]" />
       <div className="mt-8 flex justify-start gap-2.5"></div>
-      <h3 className="  mt-2 text-2xl leading-normal font-semibold font-palanquin">
+      <h3 className="  mt-2  text-2xl leading-normal font-semibold font-palanquin">
         {name}
       </h3>
       <p className="  mt-2 font-semibold font-montserrat text-light-green text-2xl leading-normal">
